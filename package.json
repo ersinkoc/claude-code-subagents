@@ -1,0 +1,82 @@
+{
+  "name": "claude-code-subagents",
+  "version": "1.0.0",
+  "description": "A comprehensive collection of specialized AI subagents for Claude Code development workflows",
+  "main": "src/index.js",
+  "bin": {
+    "claude-subagents": "./bin/cli.js"
+  },
+  "scripts": {
+    "install-agents": "node src/installer.js",
+    "list-agents": "node src/list.js",
+    "validate": "node src/validate.js",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "build": "npm run validate && npm run test",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "claude-code",
+    "ai",
+    "subagents",
+    "development",
+    "automation",
+    "code-review",
+    "security",
+    "testing",
+    "devops",
+    "documentation"
+  ],
+  "author": "Ersin Koc",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ersinkoc/claude-code-subagents.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ersinkoc/claude-code-subagents/issues"
+  },
+  "homepage": "https://github.com/ersinkoc/claude-code-subagents#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "commander": "^9.4.1",
+    "chalk": "^4.1.2",
+    "inquirer": "^8.2.5",
+    "fs-extra": "^11.1.1",
+    "glob": "^8.1.0",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.50.0",
+    "@types/node": "^20.8.0"
+  },
+  "files": [
+    "agents/**/*.md",
+    "src/**/*.js",
+    "bin/**/*.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "claudeCode": {
+    "agentCategories": [
+      "frontend",
+      "backend", 
+      "security",
+      "testing",
+      "devops",
+      "performance",
+      "documentation",
+      "architecture",
+      "data-analytics",
+      "utilities",
+      "creative"
+    ],
+    "totalAgents": 65,
+    "compatibleVersions": [">=1.0.0"]
+  }
+}
