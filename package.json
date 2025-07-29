@@ -76,7 +76,7 @@
       "utilities",
       "creative"
     ],
-    "totalAgents": 65,
+    "totalAgents": 67,
     "compatibleVersions": [">=1.0.0"]
   }
 }

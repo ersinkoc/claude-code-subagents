@@ -1,7 +1,6 @@
 const fs = require('fs-extra');
-const path = require('path');
 const chalk = require('chalk');
-const { getAllAgents, parseAgentFile } = require('./index');
+const { getAllAgents } = require('./index');
 
 function validateAgentFile(agentPath) {
   const errors = [];

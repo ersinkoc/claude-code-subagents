@@ -1,6 +1,11 @@
 # Claude Code Subagents
 
-67 specialized AI agents for Claude Code development workflows.
+🤖 67 specialized AI agents for Claude Code development workflows.
+
+[![npm version](https://badge.fury.io/js/claude-code-subagents.svg)](https://badge.fury.io/js/claude-code-subagents)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/ersinkoc/claude-code-subagents)](https://github.com/ersinkoc/claude-code-subagents/issues)
+[![GitHub stars](https://img.shields.io/github/stars/ersinkoc/claude-code-subagents)](https://github.com/ersinkoc/claude-code-subagents/stargazers)
 
 ## What are Subagents?
 
@@ -75,6 +80,16 @@ claude-subagents categories                  # List categories
 - **User-level**: `~/.claude/agents/` (all projects)
 - **Project-level**: `.claude/agents/` (current project only)
 
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
+
+## Support
+
+- 🐛 [Report bugs](https://github.com/ersinkoc/claude-code-subagents/issues)
+- 💡 [Request features](https://github.com/ersinkoc/claude-code-subagents/issues)
+- ⭐ [Star this project](https://github.com/ersinkoc/claude-code-subagents)
+
 ## License
 
-MIT
+MIT © [Ersin Koc](https://github.com/ersinkoc)
